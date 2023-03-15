@@ -1,0 +1,111 @@
+.loginBtn {
+  background: #882544;
+  border-radius: 4px;
+  color: #fff;
+  width: 490px;
+  height: 43px;
+  border: none;
+  margin: 2% 0;
+  padding: 2% 5%;
+}
+
+.forgot{
+    text-align: end;
+}
+.signup{
+    text-align: center;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent{
+  background: #181822;
+  width: 47%;
+  /* padding: 50px 0; */
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modalHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header h1{
+  margin-right: 40%;
+  color: white;
+}
+.close{
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+form label{
+  color: rgb(225, 220, 220);
+  margin: 2% 0;
+}
+.signup {
+   color: rgb(225, 220, 220);
+  padding: 2%;
+}
+form p{
+  padding: 2%;
+  color: #B0365C;
+}
+form select{
+  width: 100%;
+  height: 43px;
+  background: #0C0C18;
+  margin-top: 5px;
+  border: none;
+  color: #fff;
+  font-size: 1vw;
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+form select option{
+  width: 100%;
+  height: 43px;
+  background: #0C0C18;
+  margin-top: 5px;
+  border: none;
+  color: #fff;
+  font-size: 1vw;
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+.didntSign{
+  color: #B0365C;
+  text-decoration: none;
+}

@@ -1,0 +1,74 @@
+.landing-judge-container {
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+}
+.landing-judge-box {
+  /* display: flex; */
+  position: relative;
+  width: 80vw;
+  height: 50vh;
+  margin-top: 5vh;
+}
+.landing-judge-image {
+  position: relative;
+}
+.landing-judge-img {
+  position: absolute;
+  height: 50vh;
+  left: 5vw;
+}
+.landing-judge-details {
+  position: absolute;
+  right: 6vw;
+  width: 35vw;
+  margin: 2rem;
+}
+.landing-judge-heading {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 5.25rem;
+  color: #e9e9e9;
+}
+.landing-judge-content {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  display: flex;
+  align-items: center;
+  color: #bcbcbf;
+  margin-top: 3vh;
+}
+.landing-judge-btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.875rem 2.5rem;
+  gap: 0.625rem;
+  background: #661b32;
+  border-radius: 0.25rem;
+  border: none;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 4vh;
+}
+/* .landing-judge-btn:hover{
+  color: #661b32;
+  background-color: white;
+  border: #661b32;
+} */

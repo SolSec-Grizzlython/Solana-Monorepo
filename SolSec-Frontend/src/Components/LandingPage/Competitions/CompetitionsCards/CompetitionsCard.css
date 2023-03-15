@@ -1,0 +1,44 @@
+.competitions-card-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: #181822;
+  /* border: 2px solid white; */
+  border-radius: 0.75rem;
+  width: 37vw;
+  height: 23vh;
+  cursor: pointer;
+}
+.competitions-card-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.competitions-card-img {
+  width: 7vw ; 
+  height: 12vh ;
+  margin: 2rem ;
+}
+.competitions-card-details {
+  margin-top: 7vh ;
+}
+.competitions-card-name {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.75rem ;
+  line-height: 2.375rem ;
+  color: #e9e9e9;
+  margin-bottom: 3vh ;
+}
+.competitions-card-content {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem ;
+  line-height: 1.375rem ;
+  display: flex;
+  align-items: center;
+  color: #bcbcbf;
+}

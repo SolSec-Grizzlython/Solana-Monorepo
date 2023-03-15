@@ -1,0 +1,113 @@
+
+.container {
+    background-color: #0C0C18;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 4% 4% 2%;
+  }
+  .title h1{
+    color: #BDBDBF;
+    font-size: 3.5rem;
+  }
+  .title p{
+    width: 60%;
+    color: #BCBCBF;
+  }
+  .main{
+    background-color: #181822;
+    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0 10% 0;
+    width: 893px;
+    height: auto;
+  }
+  .form{
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+  }
+  .form h1{
+    color: #BCBCBF;
+    margin-bottom: 1.5%;
+  }
+  .form label{
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 2%;
+  }
+  .form input{
+    width: 100%;
+    height: 43px;
+    background: #0C0C18;
+    margin-top: 5px;
+    border: none;
+    color: #fff;
+    font-size: 1vw;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+  }
+  .divs{
+    display: flex;
+    flex-direction: row;
+    color: #882544;
+  }
+  .footer{
+    align-items: center;
+    justify-content: center;
+  }
+ .footerButton{
+    background-color: #882544;
+    cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height: 8vh;
+  width: 50%;
+  margin-top: 2.5rem;
+  margin-left: 25%;
+ }
+ .label1{
+   margin: 4% 2% 0 0;
+   color: #882544 !important;
+   border-right: #882544 !important;
+    height: 2%;
+ }
+ .label2{
+    margin: 4% 2% 0 0;
+    height: 2%;
+ }
+ .resume{
+    background-color: #882544;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 133px;
+height: 40px;
+ }
+ .checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+ .checkbox input{
+    height: 1rem;
+    width: 10%;
+ }
+ .checkbox p{
+    
+    color: #BDBDBF;
+ }

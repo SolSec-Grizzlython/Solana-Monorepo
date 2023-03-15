@@ -1,0 +1,79 @@
+.landing-proposal-container {
+  background-image: url("./Images/Rectangle 317.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  overflow-x: hidden;
+  height: 100vh;
+  width: auto;
+  /* margin-top: 35vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing-proposal-box {
+  width: 87vw;
+  height: 70vh;
+}
+.landing-proposal-image {
+  position: relative;
+}
+.landing-proposal-img {
+  position: absolute;
+  right: 2vw;
+  top: 5vh;
+}
+.landing-proposal-details {
+  position: relative;
+  margin: 4rem;
+  width: 45vw;
+}
+.landing-proposal-heading {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 5.25rem;
+  color: #e9e9e9;
+}
+.landing-proposal-content {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  display: flex;
+  align-items: center;
+  color: #bcbcbf;
+  width: 35vw;
+  margin-top: 4vh;
+}
+.landing-proposal-btn {
+  cursor: pointer;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  /* display: flex;
+  align-items: center; */
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: none;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.875rem 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 0.25rem;
+  margin-top: 5vh;
+}
+.landing-proposal-btn:hover{
+  background-color: #882544;
+}

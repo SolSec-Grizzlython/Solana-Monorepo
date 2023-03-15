@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  height: 5rem;
+  background-color: #0c0c18;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navList ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navList li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.competitions{
+  text-decoration: none;
+  color: white;
+}
+
+.discord {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  height: 32px;
+  padding: 4px 24px;
+  background: transparent;
+  color: white;
+  width: 156px;
+}
+
+.login {
+  border: none;
+  width: 78px;
+  height: 32px;
+  border-radius: 4px;
+  padding: 4px 24px;
+  background: #882544;
+  color: white;
+}
+
+.loginbtn{
+  text-decoration: none;
+  color: white;
+}
+
+.title{
+  text-decoration: none;
+  color: white;
+}
+
+.hamburger-menu-item{
+  border: 1px solid var(--orange);
+  border-top: 0;
+  background-color: white;
+  padding: 10px 40px 10px 10px;
+}
+.discord_link{
+  text-decoration: none;
+  color: white;
+}

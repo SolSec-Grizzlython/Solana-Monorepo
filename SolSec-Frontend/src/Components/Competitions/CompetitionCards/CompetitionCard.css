@@ -1,0 +1,81 @@
+.competition-card-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: #181822;
+  /* border: 2px solid white; */
+  border-radius: 0.75rem;
+  width: 33vw;
+  height: 27vh;
+}
+.competition-card-img {
+  width: 12vw;
+  height: 22vh;
+  margin: 1rem;
+}
+.competition-card-details {
+  margin: 2vh 0;
+  text-decoration: none;
+}
+.competition-card-name {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+.competition-card-content {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+  display: flex;
+  align-items: center;
+  color: #939393;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.competition-card-btn {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  display: flex;
+  align-items: center;
+  color: #d1d1d3;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 10px;
+  background: #882544;
+  border-radius: 4px;
+  border: none;
+  margin-top: 3vh;
+}
+
+.competition-desc{
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  display: flex;
+  align-items: center;
+  color: #939393;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

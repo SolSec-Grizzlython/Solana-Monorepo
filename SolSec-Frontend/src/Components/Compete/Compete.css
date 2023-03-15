@@ -1,0 +1,228 @@
+.compete-container {
+  background-color: #0c0c18;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.compete-box {
+  width: 75vw;
+  height: auto;
+}
+.competition-name {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 76px;
+  display: flex;
+  align-items: center;
+  color: #bdbdbf;
+}
+.protocol-name {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  color: #bcbcbf;
+}
+.competition-status {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 27px;
+  color: #181822;
+
+  display: inline-block;
+  padding: 4px 10px;
+  gap: 4px;
+  background: #a4a4a4;
+  border-radius: 4px;
+  margin-top: 1vh;
+}
+.competition-details {
+  width: 75vw;
+  height: auto;
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  flex-direction: row;
+  margin-top: 2vh;
+  position: relative;
+}
+.protocol-details {
+  /* display: flex;
+  flex-direction: column; */
+  height: auto;
+  width: 45vw;
+}
+.protocol-img {
+  width: 42vw;
+  height: 35vh;
+}
+.protocol-content {
+  background: #1b1b26;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  width: 32vw;
+  height: 64vh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 5vh 5vw;
+}
+.price-details {
+  background: #1b1b26;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  height: 45vh;
+  width: 31vw;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pool-prize {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.vertical-line {
+  border-left: 4px solid #882544;
+  height: 10vh;
+}
+.competition-dates {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+}
+.competition-duration {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 0.7vw;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+}
+.findings {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  gap: 10px;
+  background: #882544;
+  border-radius: 4px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5em;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: none;
+}
+.repository {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5em;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: none;
+  margin-left: 1vw;
+}
+.findingform {
+  text-decoration: none;
+  color: white;
+}
+.details-header {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: rgba(233, 233, 233, 0.8);
+}
+.big-vertical-line {
+  border-left: 4px solid #882544;
+  height: 16vh;
+}
+.prizes-veticleLine {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+}
+.proposal-prizes {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.81);
+  margin-left: 1.5vw;
+}
+.note-header {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: rgba(233, 233, 233, 0.8);
+  margin-top: 4vh;
+}
+.proposal-detail-content {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5em;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.81);
+  margin-top: 2vh;
+}
